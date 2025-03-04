@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/andel-ambulance-ufe
+
+components:
+- ../../../components/version-developers
