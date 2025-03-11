@@ -4,7 +4,10 @@ metadata:
   name: andel-ambulance-ufe-content
 spec:
   microFrontend: andel-ambulance-ufe
-  element: andel-ambulance-wl-list
+  element: andel-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /andel-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
